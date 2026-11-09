@@ -43,3 +43,10 @@ Env: `JWT_SECRET` (required in prod), `PORT`, `DB_PATH` (point at a persistent d
 | POST | /api/products/:id/adjust | `{delta, note}` |
 | GET | /api/dashboard | |
 | GET/PUT | /api/settings | |
+
+##Live Demo
+<img width="1366" height="768" alt="Screenshot (499)" src="https://github.com/user-attachments/assets/ed73faea-d361-4a04-b695-175d99937e66" />
+
+<img width="1366" height="768" alt="Screenshot (500)" src="https://github.com/user-attachments/assets/779bce61-91ad-4c64-a746-61104e5cb754" />
+
+
