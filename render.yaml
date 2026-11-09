@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: stockflow
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_PATH
+        value: /var/data/stockflow.db
+    disk:
+      name: stockflow-data
+      mountPath: /var/data
+      sizeGB: 1
